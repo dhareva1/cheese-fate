@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cheese-fate"
+version = "0.1.0"
+description = "Forecasting pathogen fate in traditional cheeses under dynamic conditions with an explainable hybrid mechanistic-ML model"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+models = [
+    "scikit-learn>=1.4",
+    "torch>=2.2",
+]
+explainability = [
+    "shap>=0.45",
+]
+figures = [
+    "matplotlib>=3.8",
+]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

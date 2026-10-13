@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below and this software."
+title: "cheese-fate: source-level validation of mechanistic, machine-learning and hybrid models for pathogen fate in traditional cheeses"
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Hareva
+    given-names: David Habsara
+  - family-names: Santoso
+    given-names: Putri Angela
+  - family-names: Murwantara
+    given-names: I Made
+keywords:
+  - predictive microbiology
+  - cheese
+  - Escherichia coli
+  - Staphylococcus aureus
+  - ComBase
+  - machine learning
+preferred-citation:
+  type: article
+  title: "How predictable is pathogen fate in traditional cheeses? Source-level validation of mechanistic, machine-learning and hybrid models for Escherichia coli and Staphylococcus aureus under dynamic conditions"
+  authors:
+    - family-names: Hareva
+      given-names: David Habsara
+    - family-names: Santoso
+      given-names: Putri Angela
+    - family-names: Murwantara
+      given-names: I Made
+  journal: "International Journal of Food Microbiology"
+  status: submitted
+  year: 2026

@@ -1,0 +1,11 @@
+# Exact versions used for the IJFM manuscript results (Python 3.14.6).
+# Install with: python -m pip install -r cheeses/requirements.txt && python -m pip install -e ./cheeses
+numpy==2.5.3
+pandas==3.0.6
+openpyxl==3.1.5
+scipy==1.18.1
+scikit-learn==1.9.1
+torch==2.14.1
+shap==0.52.0
+matplotlib==3.11.2
+pytest==9.1.1

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Tests and tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+
+# Local outputs
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# ComBase data: downloaded and generated locally, not redistributed
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/combase_cheese/
+data/raw/combase_cheese/*
+!data/raw/combase_cheese/README.md
+data/processed/*
+!data/processed/.gitkeep
+
