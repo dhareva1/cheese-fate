@@ -3,6 +3,7 @@ message: "If you use this code, please cite the article below and this software.
 title: "cheese-fate: source-level validation of mechanistic, machine-learning and hybrid models for pathogen fate in traditional cheeses"
 version: 0.1.0
 license: MIT
+repository-code: "https://github.com/dhareva1/cheese-pathogen-fate"
 authors:
   - family-names: Hareva
     given-names: David Habsara
