@@ -1,8 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the article below and this software."
 title: "cheese-pathogen-fate: source-level validation of mechanistic, machine-learning and hybrid models for pathogen fate in traditional cheeses"
-version: 0.1.0
+version: v0.2.1-alpha
 license: MIT
+doi: 10.5281/zenodo.23334895
 repository-code: "https://github.com/dhareva1/cheese-pathogen-fate"
 authors:
   - family-names: Hareva
